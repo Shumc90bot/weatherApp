@@ -1,0 +1,41 @@
+h1,body {
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+    font-size: 48px;
+}
+
+body {
+    background-color: beige;
+    text-align: center;    
+    font-size: 28px;
+}
+.weatherImage {
+    width:400px;
+    height:300px;
+    margin: 2%;   
+}
+
+#welcomebox{
+    margin: 50px;
+    border: solid silver 2px;
+    padding:2px;
+    display: block;
+}
+
+#clickButton{
+    background-color: gold;
+    color:brown;
+    border:5px dotted brown;
+    width: 200px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+
+#clickButton:hover {
+    opacity: 0.7;
+}
